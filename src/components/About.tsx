@@ -1,4 +1,5 @@
 import { Statistics } from "./Statistics";
+import heroBG from "../assets/hero-bg.png";
 
 export const About = () => {
   return (
@@ -9,7 +10,7 @@ export const About = () => {
       <div className="bg-muted/50 border rounded-lg py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
-            src="../assets/hero-bg.png"
+            src={heroBG}
             alt="Trilents team working on innovative solutions"
             className="w-[300px] object-contain rounded-lg"
           />
