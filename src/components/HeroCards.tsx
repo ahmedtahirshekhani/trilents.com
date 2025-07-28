@@ -1,6 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Badge } from "./ui/badge";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -131,7 +131,14 @@ export const HeroCards = () => {
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Start Free Trial</Button>
+          <a
+            href="#contact"
+            className={`w-full ${buttonVariants({
+              variant: "default",
+            })}`}
+          >
+            Start Free Trial
+          </a>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />

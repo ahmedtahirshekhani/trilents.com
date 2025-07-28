@@ -17,45 +17,45 @@ interface TestimonialProps {
 const testimonials: TestimonialProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    name: "Sarah Johnson",
+    userName: "@sarahjtech",
+    comment: "Trilents transformed our e-commerce platform with AI-driven recommendations. Sales increased by 40% in just 3 months!",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
+    name: "Michael Chen",
+    userName: "@mchen_dev",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "The mobile app they developed exceeded our expectations. The user interface is intuitive and the performance is outstanding. Highly recommended!",
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
+    name: "Emily Rodriguez",
+    userName: "@emily_startup",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "Working with Trilents was a game-changer for our startup. Their AI automation solutions saved us countless hours and improved our workflow efficiency dramatically.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
+    name: "David Thompson",
+    userName: "@dthompson_cto",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Exceptional development team! They delivered a scalable web application that handles our growing user base seamlessly. Professional, timely, and innovative.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
+    name: "Lisa Park",
+    userName: "@lisakpark",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "The AI chatbot integration has revolutionized our customer service. Response times decreased by 80% while customer satisfaction increased significantly.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
+    name: "James Wilson",
+    userName: "@jwilson_ops",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Trilents' cloud migration services were flawless. They modernized our entire infrastructure with zero downtime and improved our system performance by 200%.",
   },
 ];
 
@@ -69,14 +69,14 @@ export const Testimonials = () => {
         Discover Why
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          People Love{" "}
+          Clients Choose{" "}
         </span>
-        This Landing Page
+        Trilents
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
+        Real success stories from businesses that have transformed their digital presence 
+        with our innovative development and AI solutions.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">

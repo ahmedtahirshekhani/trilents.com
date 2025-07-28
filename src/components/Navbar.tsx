@@ -16,7 +16,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
+import trilentsLogo from "../assets/trilents-logo.png";
 
 interface RouteProps {
   href: string;
@@ -24,6 +24,18 @@ interface RouteProps {
 }
 
 const routeList: RouteProps[] = [
+  {
+    href: "#about",
+    label: "About",
+  },
+  {
+    href: "#services",
+    label: "Services",
+  },
+  {
+    href: "#howItWorks",
+    label: "Process",
+  },
   {
     href: "#features",
     label: "Features",
@@ -35,6 +47,10 @@ const routeList: RouteProps[] = [
   {
     href: "#pricing",
     label: "Pricing",
+  },
+  {
+    href: "#contact",
+    label: "Contact",
   },
   {
     href: "#faq",
@@ -52,10 +68,14 @@ export const Navbar = () => {
             <a
               rel="noreferrer noopener"
               href="/"
-              className="ml-2 font-bold text-xl flex"
+              className="ml-2 font-bold text-xl flex items-center"
             >
-              <LogoIcon />
-              ShadcnUI/React
+              <img 
+                src={trilentsLogo} 
+                alt="Trilents Logo" 
+                className="w-8 h-8 mr-2"
+              />
+              Trilents
             </a>
           </NavigationMenuItem>
 
@@ -94,7 +114,7 @@ export const Navbar = () => {
                       {label}
                     </a>
                   ))}
-                  <a
+                  {/* <a
                     rel="noreferrer noopener"
                     href="https://github.com/leoMirandaa/shadcn-landing-page.git"
                     target="_blank"
@@ -104,7 +124,7 @@ export const Navbar = () => {
                   >
                     <GitHubLogoIcon className="mr-2 w-5 h-5" />
                     Github
-                  </a>
+                  </a> */}
                 </nav>
               </SheetContent>
             </Sheet>
@@ -127,7 +147,7 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            <a
+            {/* <a
               rel="noreferrer noopener"
               href="https://github.com/leoMirandaa/shadcn-landing-page.git"
               target="_blank"
@@ -135,7 +155,7 @@ export const Navbar = () => {
             >
               <GitHubLogoIcon className="mr-2 w-5 h-5" />
               Github
-            </a>
+            </a> */}
 
             <ModeToggle />
           </div>

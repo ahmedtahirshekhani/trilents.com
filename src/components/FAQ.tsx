@@ -13,33 +13,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "What types of digital solutions does Trilents offer?",
+    answer: "Trilents specializes in web development, mobile app development, AI solutions, cloud services, and custom software development. We create scalable, modern applications tailored to your business needs.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "How does Trilents integrate AI into business solutions?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "We develop custom AI solutions including chatbots, machine learning models, automation systems, and data analytics platforms. Our AI integrations help streamline processes, improve decision-making, and enhance user experiences.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+      "What is the typical timeline for a development project?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "Project timelines vary based on complexity and scope. Simple websites take 2-4 weeks, while complex applications can take 2-6 months. We provide detailed timelines during our initial consultation.",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Do you provide ongoing support after project completion?",
+    answer: "Yes! We offer comprehensive support packages including maintenance, updates, security monitoring, and technical assistance. Our support plans range from 3 months to ongoing enterprise-level support.",
     value: "item-4",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+      "Can Trilents help migrate our existing systems to the cloud?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Absolutely! We specialize in cloud migration services, helping businesses transition to platforms like AWS, Azure, and Google Cloud. We ensure minimal downtime and improved performance during the migration process.",
     value: "item-5",
   },
 ];

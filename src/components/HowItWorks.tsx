@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Discovery & Planning",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "We analyze your requirements, understand your goals, and create a comprehensive roadmap for your digital solution.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Design & Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Our expert team designs user-centric interfaces and develops robust, scalable solutions using cutting-edge technologies.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Testing & Deployment",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Rigorous testing ensures quality and performance before we deploy your solution to production environments.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Support & Optimization",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Ongoing support, maintenance, and continuous optimization to ensure your solution evolves with your business needs.",
   },
 ];
 
@@ -41,15 +41,15 @@ export const HowItWorks = () => {
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+        Our{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+          Process{" "}
         </span>
-        Step-by-Step Guide
+        From Concept to Launch
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        A proven methodology that ensures successful delivery of your digital solutions 
+        from initial concept to final deployment and beyond.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

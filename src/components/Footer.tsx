@@ -1,4 +1,4 @@
-import { LogoIcon } from "./Icons";
+import trilentsLogo from "../assets/trilents-logo.png";
 
 export const Footer = () => {
   return (
@@ -10,22 +10,26 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             href="/"
-            className="font-bold text-xl flex"
+            className="font-bold text-xl flex items-center"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            <img 
+              src={trilentsLogo} 
+              alt="Trilents Logo" 
+              className="w-8 h-8 mr-2"
+            />
+            Trilents
           </a>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">Follow Us</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              LinkedIn
             </a>
           </div>
 
@@ -45,60 +49,93 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              GitHub
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
+          <h3 className="font-bold text-lg">Services</h3>
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#services"
               className="opacity-60 hover:opacity-100"
             >
-              Web
+              Web Development
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#services"
               className="opacity-60 hover:opacity-100"
             >
-              Mobile
+              AI Solutions
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#services"
               className="opacity-60 hover:opacity-100"
             >
-              Desktop
+              Mobile Development
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
+          <h3 className="font-bold text-lg">Company</h3>
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#about"
               className="opacity-60 hover:opacity-100"
             >
-              Features
+              About Us
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#team"
+              className="opacity-60 hover:opacity-100"
+            >
+              Our Team
+            </a>
+          </div>
+
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="#testimonials"
+              className="opacity-60 hover:opacity-100"
+            >
+              Testimonials
+            </a>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <h3 className="font-bold text-lg">Support</h3>
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="#faq"
+              className="opacity-60 hover:opacity-100"
+            >
+              FAQ
+            </a>
+          </div>
+
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="#pricing"
               className="opacity-60 hover:opacity-100"
             >
               Pricing
@@ -108,43 +145,10 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#contact"
               className="opacity-60 hover:opacity-100"
             >
-              FAQ
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Youtube
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Discord
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Twitch
+              Contact
             </a>
           </div>
         </div>
@@ -152,15 +156,16 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
+          &copy; 2025{" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
+            href="/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            Trilents Digital Solutions
           </a>
+          . All rights reserved.
         </h3>
       </section>
     </footer>

@@ -6,9 +6,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/growth.png";
-import image3 from "../assets/reflecting.png";
-import image4 from "../assets/looking-ahead.png";
+import aiTech from "../assets/ai-tech.png";
+import webDev from "../assets/web-dev.png";
+import mobileDev from "../assets/expert-team.png";
 
 interface FeatureProps {
   title: string;
@@ -18,35 +18,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "AI-Powered Solutions",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image4,
+      "Leverage cutting-edge artificial intelligence to automate processes, gain insights, and enhance user experiences across your digital ecosystem.",
+    image: aiTech,
   },
   {
-    title: "Intuitive user interface",
+    title: "Scalable Architecture",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image3,
+      "Build robust applications with modern, scalable architectures that grow with your business and handle increasing demands effortlessly.",
+    image: webDev,
   },
   {
-    title: "AI-Powered insights",
+    title: "Expert Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image,
+      "Our team of experienced developers uses the latest technologies and best practices to deliver high-quality, maintainable solutions.",
+    image: mobileDev,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "AI Integration",
+  "Cloud Solutions",
+  "Mobile Development",
+  "Web Applications", 
+  "Data Analytics",
+  "API Development",
+  "DevOps & Deployment",
+  "Security & Compliance",
+  "24/7 Support",
 ];
 
 export const Features = () => {
@@ -56,9 +56,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Powerful{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Technology Features
         </span>
       </h2>
 
